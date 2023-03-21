@@ -252,11 +252,6 @@ const Home: NextPage = () => {
                 <div className={styles.mintAreaLeft}>
                   <p>Total Minted</p>
                 </div>
-                    <p>
-                      <b>{numberClaimed}</b>
-                      {" / "}
-                      {numberTotal}
-                    </p>
                   ) : (
                     <p>Loading...</p>
                   )}
