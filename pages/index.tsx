@@ -247,17 +247,6 @@ const Home: NextPage = () => {
 
               <MediaRenderer />
 
-              {/* Amount claimed so far */}
-              <div className={styles.mintCompletionArea}>
-                <div className={styles.mintAreaLeft}>
-                  <p>Total Minted</p>
-                </div>
-                  ) : (
-                    <p>Loading...</p>
-                  )}
-                </div>
-              </div>
-
               {claimConditions.data?.length === 0 ||
                 claimConditions.data?.every(
                   (cc) => cc.maxClaimableSupply === "0"
