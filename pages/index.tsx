@@ -252,8 +252,6 @@ const Home: NextPage = () => {
                 <div className={styles.mintAreaLeft}>
                   <p>Total Minted</p>
                 </div>
-                <div className={styles.mintAreaRight}>
-                  {claimedSupply && unclaimedSupply ? (
                     <p>
                       <b>{numberClaimed}</b>
                       {" / "}
